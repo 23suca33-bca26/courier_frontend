@@ -1,0 +1,61 @@
+# FRONTEND - React Application
+
+## 📦 How to Run the Frontend
+
+### Step 1: Navigate to the frontend folder
+```bash
+cd frontend
+```
+
+### Step 2: Install dependencies (first time only)
+```bash
+npm install
+```
+
+### Step 3: Start the development server
+```bash
+npm start
+```
+
+The application will automatically open in your browser at: **http://localhost:3000**
+
+---
+
+## 🔧 Make sure Backend is running first!
+
+Before starting the frontend, ensure the Spring Boot backend is running on port 8006:
+```bash
+cd d:\courier_tracking\courier_tracking
+mvn spring-boot:run
+```
+
+---
+
+## 📁 Frontend Structure
+
+```
+frontend/
+├── src/
+│   ├── components/
+│   │   ├── ParcelForm.js
+│   │   └── ParcelList.js
+│   ├── services/
+│   │   └── parcelService.js
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+├── public/
+│   └── index.html
+└── package.json
+```
+
+---
+
+## ✅ Features
+
+- Add new parcels with form
+- View all parcels in table
+- Delete parcels
+- Status tracking (RECEIVED, PENDING, DELIVERED)
+- Responsive design
+- Real-time updates
