@@ -2,9 +2,9 @@ import axios from 'axios';
 
 /**
  * Service for making API calls to the backend
- * Base URL points to Spring Boot backend running on port 8006
+ * Base URL points to Spring Boot backend running on the configured port
  */
-const API_BASE_URL = 'http://localhost:8006/api/parcels';
+const API_BASE_URL = `${process.env.REACT_APP_BACKEND_URL}/api/parcels`;
 
 /**
  * Fetch all parcels from the backend
