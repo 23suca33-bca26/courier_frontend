@@ -59,3 +59,11 @@ frontend/
 - Status tracking (RECEIVED, PENDING, DELIVERED)
 - Responsive design
 - Real-time updates
+
+---
+
+## Challenges Faced
+
+During development and deployment, several integration and configuration challenges were encountered, including backend API connectivity and environment configuration. These issues were resolved by using environment-based API URLs and proper build configuration.
+
+Detailed explanations of these challenges and solutions are documented in the backend repository.
